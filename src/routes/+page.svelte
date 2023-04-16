@@ -16,7 +16,7 @@
 			</picture>
 		</div>
 	</h1>
-	<p class="drac-heading drac-heading-lg drac-text-white">Odstávka služieb na:</p>	
+	<p class="drac-heading drac-heading-lg drac-text-white">Obsah sa spúšťa za:</p>	
 	<Counter />
 </section>
 
