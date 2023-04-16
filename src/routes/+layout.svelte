@@ -16,7 +16,7 @@
 	</main>
 
 	<footer>
-		<p class="drac-text drac-text-white"><center>support@airisp.eu</center><br>{year} airISP <a href="/podmienky">podmienky služby</a></p>
+		<p class="drac-text drac-text-white"><center>podpora@sietovevzdelanie.eu</center><br>{year} Sietove vzdelanie <a href="/podmienky">podmienky služby</a></p>
 	</footer>
 </div>
 

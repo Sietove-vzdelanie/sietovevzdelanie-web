@@ -10,10 +10,10 @@
 <header>
 	<div class="corner">
 		<button on:click={redirect} style="margin-top: 1em; margin-left:1em; width:7em" class="drac-btn drac-bg-purple-transparent drac-btn-ghost drac-text-purple drac-m-sm drac-btn-xs">
-		MOJA ZÓNA</button>
+		NÁVRH NA ZLEPŠENIE</button>
 	</div>
 
-	<nav>
+	<!-- <nav>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
@@ -28,10 +28,10 @@
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
 		</svg>
-	</nav>
+	</nav> -->
 
 	<div class="corner">
-		<a href="https://github.com/airISP">
+		<a href="https://github.com/sietove-vzdelanie/sietovevzdelanie-web">
 			<img class="white" src={github} alt="GitHub" />
 		</a>
 	</div>

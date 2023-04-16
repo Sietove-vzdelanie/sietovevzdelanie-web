@@ -4,8 +4,8 @@
 </script>
 
 <svelte:head>
-	<title>airISP</title>
-	<meta name="description" content="airISP" />
+	<title>Sieťové vzdelanie</title>
+	<meta name="description" content="Sieťové vzdelanie" />
 </svelte:head>
 
 <section>
