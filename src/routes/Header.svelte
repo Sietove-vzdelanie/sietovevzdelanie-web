@@ -9,7 +9,7 @@
 
 <header>
 	<div class="corner">
-		<button on:click={redirect} style="margin-top: 1em; margin-left:1em; width:7em" class="drac-btn drac-bg-purple-transparent drac-btn-ghost drac-text-purple drac-m-sm drac-btn-xs">
+		<button on:click={redirect} style="margin-top: 1em; margin-left:1em; width:14em" class="drac-btn drac-bg-purple-transparent drac-btn-ghost drac-text-purple drac-m-sm drac-btn-xs">
 		NÁVRH NA ZLEPŠENIE</button>
 	</div>
 
