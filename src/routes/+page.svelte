@@ -15,7 +15,7 @@
 				<img src={logo} alt="" />
 			</picture> -->
 			<span class="drac-badge drac-bg-animated">
-				<span class="drac-text drac-line-height drac-text-black">Sieťové vzdelávanie</span></span>
+				<span class="drac-text drac-line-height drac-text-black">Sieťové vzdelanie</span></span>
 		</div><br><br><br><br><br><br><br><br><br><br>
 	
 	<p class="drac-heading drac-heading-lg drac-text-white">Obsah sa spúšťa za:</p>	
