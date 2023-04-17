@@ -3,14 +3,14 @@
 	import github from '$lib/images/github.svg';
 
 	async function redirect() {
-		window.location.assign("https://spravca.airisp.eu/");
+		window.location.assign("/zlepsenie/");
 	}
 </script>
 
 <header>
 	<div class="corner">
-		<button on:click={redirect} style="margin-top: 1em; margin-left:1em; width:14em" class="drac-btn drac-bg-purple-transparent drac-btn-ghost drac-text-purple drac-m-sm drac-btn-xs">
-		NÁVRH NA ZLEPŠENIE</button>
+		<button aria-current={$page.url.pathname === '/zlepsenie' ? 'page' : undefined} on:click={redirect} style="margin-top: 1em; margin-left:1em; width:13em" class="drac-btn drac-bg-purple-transparent drac-btn-ghost drac-text-purple drac-m-sm drac-btn-xs">
+		návrh na zlepšenie</button>
 	</div>
 
 	<!-- <nav>
@@ -21,8 +21,8 @@
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a class="drac-text" href="/">Domov</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/info' ? 'page' : undefined}>
-				<a class="drac-text" href="/info">Info</a>
+			<li aria-current={$page.url.pathname === '/obsah' ? 'page' : undefined}>
+				<a class="drac-text" href="/">Obsah</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -31,7 +31,7 @@
 	</nav> -->
 
 	<div class="corner">
-		<a href="https://github.com/sietove-vzdelanie/sietovevzdelanie-web">
+		<a href="https://github.com/sietove-vzdelanie/">
 			<img class="white" src={github} alt="GitHub" />
 		</a>
 	</div>
