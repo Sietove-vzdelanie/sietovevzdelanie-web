@@ -12,8 +12,8 @@
 
 <header>
 	<div class="corner">
-		<a style="drac-btn" href="/zlepsenie"><button style="margin-top: 1em; margin-left:1em; width:13em" class="drac-btn drac-bg-purple-transparent drac-btn-ghost drac-text-purple drac-m-sm drac-btn-xs">
-		návrh na zlepšenie</button></a>
+		<button on:click={redirectt} style="margin-top: 1em; margin-left:1em; width:13em" class="drac-btn drac-bg-purple-transparent drac-btn-ghost drac-text-purple drac-m-sm drac-btn-xs">
+		návrh na zlepšenie</button>
 	</div>
 
 	<!-- <nav>
