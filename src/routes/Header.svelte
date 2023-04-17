@@ -1,16 +1,19 @@
 <script>
 	import { page } from '$app/stores';
 	import github from '$lib/images/github.svg';
+	import { redirect } from '@sveltejs/kit';
+	import { error } from '@sveltejs/kit';
 
-	async function redirect() {
-		window.location.assign("/zlepsenie/");
+	async function redirectt() {
+		window.location.assign("/zlepsenie");
 	}
+
 </script>
 
 <header>
 	<div class="corner">
-		<button aria-current={$page.url.pathname === '/zlepsenie' ? 'page' : undefined} on:click={redirect} style="margin-top: 1em; margin-left:1em; width:13em" class="drac-btn drac-bg-purple-transparent drac-btn-ghost drac-text-purple drac-m-sm drac-btn-xs">
-		návrh na zlepšenie</button>
+		<a style="drac-btn" href="/zlepsenie"><button style="margin-top: 1em; margin-left:1em; width:13em" class="drac-btn drac-bg-purple-transparent drac-btn-ghost drac-text-purple drac-m-sm drac-btn-xs">
+		návrh na zlepšenie</button></a>
 	</div>
 
 	<!-- <nav>

@@ -11,9 +11,11 @@
 <section>
 	<h1>
 		<div class="welcome">
-			<picture>
+			<!-- <picture>
 				<img src={logo} alt="" />
-			</picture>
+			</picture> -->
+			<span class="drac-badge drac-bg-animated">
+				<span class="drac-text drac-line-height drac-text-black">Sieťové vzdelávanie</span></span>
 		</div>
 	</h1>
 	<p class="drac-heading drac-heading-lg drac-text-white">Obsah sa spúšťa za:</p>	
