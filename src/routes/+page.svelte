@@ -5,6 +5,7 @@
 
 	async function redirectt() {
 		window.location.assign("https://obsah.sietovevzdelanie.eu/course/view.php?id=3");
+		// window.location.assign("https://obsah.sietovevzdelanie.eu/");
 	}
 </script>
 
