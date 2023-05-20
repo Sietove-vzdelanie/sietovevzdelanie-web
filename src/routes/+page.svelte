@@ -1,6 +1,11 @@
 <script>
 	import Counter from './Counter.svelte';
 	import logo from '$lib/images/airisp.png';
+	import { redirect } from '@sveltejs/kit';
+
+	async function redirectt() {
+		window.location.assign("https://obsah.sietovevzdelanie.eu/course/view.php?id=3");
+	}
 </script>
 
 <svelte:head>
@@ -10,14 +15,19 @@
 
 <section>
 	
-		<div class="welcome">
-			<!-- <picture>
-				<img src={logo} alt="" />
-			</picture> -->
-			<span class="drac-badge drac-bg-animated">
-				<span class="drac-text drac-line-height drac-text-black">Sieťové vzdelanie</span></span>
-		</div><br><br><br><br><br><br><br><br><br><br>
-	
+	<div class="welcome">
+		<!-- <picture>
+			<img src={logo} alt="" />
+		</picture> -->
+		<h1 class="drac-text drac-text-purple-cyan">Sieťové <br> Vzdelanie</h1>	
+	</div>
+
+	<br><br>
+
+	<button on:click={redirectt} class="drac-btn drac-bg-purple-cyan drac-m-sm">Ukážka kurzov</button>
+
+	<br><br><br><br><br><br>
+
 	<p class="drac-heading drac-heading-lg drac-text-white">Obsah sa spúšťa za:</p>	
 	<Counter />
 </section>
@@ -33,11 +43,12 @@
 
 	h1 {
 		width: 100%;
+		font-size: 4rem;
 	}
 
 	@media only screen and (max-width: 450px) {
 		h1 {
-			font-size: 1.8rem;
+			font-size: 3rem;
 		}
 	}
 

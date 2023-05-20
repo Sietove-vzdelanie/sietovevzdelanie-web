@@ -49,7 +49,7 @@
 	.counter {
 		display: flex;
 		
-		margin: 1rem 0;
+		margin: 0rem 0;
 	}
 
 	.counter button {
@@ -91,10 +91,10 @@
 		position: absolute;
 		display: flex;
 		width: 100%;
-		height: 100%;
+		height: 10rem;
 		font-weight: 400;
 		color: var(--color-theme-1);
-		font-size: 4rem;
+		font-size: 3rem;
 		align-items: center;
 		justify-content: center;
 	}
