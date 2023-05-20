@@ -48,7 +48,7 @@
 
 	@media only screen and (max-width: 450px) {
 		h1 {
-			font-size: 3rem;
+			font-size: 3.5rem;
 		}
 	}
 
