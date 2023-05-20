@@ -2,7 +2,8 @@
 	import { spring } from 'svelte/motion';
 	import { onMount } from 'svelte';
 
-	var countDownDate = new Date("May 25, 2023 15:37:25").getTime();
+	// main page odpocet casu
+	var countDownDate = new Date("May 29, 2023 15:37:25").getTime();
 	
   	// Get today's date and time
   	let now = new Date();
@@ -30,7 +31,6 @@
 
 <div class="counter">
 	
-
 	<div class="counter-viewport">
 		<div class="counter-digits">
 			<strong class="hidden"></strong>
