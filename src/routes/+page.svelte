@@ -19,7 +19,7 @@
 		<!-- <picture>
 			<img src={logo} alt="" />
 		</picture> -->
-		<h1 class="drac-text drac-text-purple-cyan">Sieťové <br> Vzdelanie</h1>	
+		<h1 class="drac-text drac-text-purple-cyan">Sieťové<br>Vzdelanie</h1>	
 	</div>
 
 	<br><br>
