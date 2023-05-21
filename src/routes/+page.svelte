@@ -23,11 +23,11 @@
 		<h1 class="drac-text drac-text-purple-cyan">Sieťové<br>Vzdelanie</h1>	
 	</div>
 
-	<br><br>
+	<div style="height: 2em"></div>
+	
+	<button on:click={redirectt} class="drac-btn drac-bg-purple-cyan drac-m-sm drac-btn-lg">Ukážka kurzov</button>
 
-	<button on:click={redirectt} class="drac-btn drac-bg-purple-cyan drac-m-sm">Ukážka kurzov</button>
-
-	<br><br><br><br><br><br>
+	<div style="height: 6em"></div>
 	
 	<p class="drac-heading drac-heading-lg drac-text-white">Obsah sa spúšťa za:</p>	
 	<Counter />
