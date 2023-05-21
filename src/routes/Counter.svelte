@@ -91,7 +91,7 @@
 		position: absolute;
 		display: flex;
 		width: 100%;
-		height: 10rem;
+		height: 3em;
 		font-weight: 400;
 		color: var(--color-theme-1);
 		font-size: 3rem;
