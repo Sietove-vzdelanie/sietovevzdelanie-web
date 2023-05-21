@@ -4,7 +4,7 @@
 	import { redirect } from '@sveltejs/kit';
 
 	async function redirectt() {
-		window.location.assign("https://obsah.sietovevzdelanie.eu/");
+		window.location.assign("https://obsah.sietovevzdelanie.eu/course/view.php?id=3");
 		// window.location.assign("https://obsah.sietovevzdelanie.eu/");
 	}
 </script>
@@ -28,7 +28,7 @@
 	<button on:click={redirectt} class="drac-btn drac-bg-purple-cyan drac-m-sm">Ukážka kurzov</button>
 
 	<br><br><br><br><br><br>
-
+	
 	<p class="drac-heading drac-heading-lg drac-text-white">Obsah sa spúšťa za:</p>	
 	<Counter />
 </section>
