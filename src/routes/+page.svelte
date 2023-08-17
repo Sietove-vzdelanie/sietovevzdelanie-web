@@ -29,7 +29,7 @@
 
 	<div style="height: 6em"></div>
 	
-	<p class="drac-heading drac-heading-lg drac-text-white">Obsah sa spúšťa za:</p>	
+	<p class="drac-heading drac-heading-lg drac-text-white">Obsah bude dostupný za:</p>	
 	<Counter />
 </section>
 

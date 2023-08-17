@@ -3,7 +3,7 @@
 	import { onMount } from 'svelte';
 
 	// main page odpocet casu
-	var countDownDate = new Date("June 29, 2023 15:37:25").getTime();
+	var countDownDate = new Date("November 29, 2023 15:37:25").getTime();
 	
   	// Get today's date and time
   	let now = new Date();
@@ -37,7 +37,7 @@
 			{#if distance > 0}
 				<strong class="drac-text drac-text-purple-cyan">{days} D {hours} H <br>{minutes} M {seconds} S</strong>	
 			{:else}
-				<strong>Stránka sa spúšťa onedlho!</strong>	
+				<strong class="drac-text drac-text-purple-cyan">Stránka sa spúšťa onedlho!</strong>	
 			{/if}
 		</div>
 	</div>

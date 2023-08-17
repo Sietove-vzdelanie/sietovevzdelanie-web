@@ -51,6 +51,8 @@
 		font-weight: bold;
 	}
 
+	a { text-decoration: none; }
+
 	@media (min-width: 480px) {
 		footer {
 			padding: 12px 0;
