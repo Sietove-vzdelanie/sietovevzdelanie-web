@@ -1,8 +1,6 @@
 <script>
-	import { onMount } from 'svelte';
 	import Header from './Header.svelte';
 	import './styles.css';
-	import 'dracula-ui/styles/dracula-ui.css'
 
 	let teraz = new Date(), month, day, year;
 	year = teraz.getFullYear();
@@ -22,6 +20,11 @@
 </div>
 
 <style>
+	a { text-decoration: none; }
+	a:link { text-decoration: none; }
+	a:visited { text-decoration: none; }
+	a:hover { text-decoration: none; }
+	a:active { text-decoration: none; }
 	.app {
 		display: flex;
 		flex-direction: column;

@@ -1,12 +1,5 @@
 <script>
 	import Counter from './Counter.svelte';
-	import logo from '$lib/images/airisp.png';
-	import { redirect } from '@sveltejs/kit';
-
-	async function redirectt() {
-		window.location.assign("https://obsah.sietovevzdelanie.eu/");
-		// window.location.assign("https://obsah.sietovevzdelanie.eu/");
-	}
 </script>
 
 <svelte:head>
@@ -25,11 +18,11 @@
 
 	<div style="height: 2em"></div>
 	
-	<button on:click={redirectt} class="drac-btn drac-bg-purple-cyan drac-m-sm drac-btn-lg">Ukážka kurzov</button>
+	<a href="https://obsah.sietovevzdelanie.eu/" class="drac-btn drac-bg-purple-cyan drac-m-sm drac-btn-lg">Ukážka kurzov</a>
 
 	<div style="height: 6em"></div>
 	
-	<p class="drac-heading drac-heading-lg drac-text-white">Obsah bude dostupný za:</p>	
+	<p class="drac-heading drac-heading-lg drac-text-white">Nový obsah dostupný za:</p>	
 	<Counter />
 </section>
 
@@ -67,4 +60,12 @@
 		pointer-events: none;
 	
 	}
+	a { 
+		text-decoration: none;
+		color: black;
+	}
+	a:link { text-decoration: none; }
+	a:visited { text-decoration: none; }
+	a:hover { text-decoration: none; }
+	a:active { text-decoration: none; }
 </style>

@@ -1,19 +1,11 @@
 <script>
-	import { page } from '$app/stores';
 	import github from '$lib/images/github.svg';
-	import { redirect } from '@sveltejs/kit';
-	import { error } from '@sveltejs/kit';
-
-	async function redirectt() {
-		window.location.assign("/zlepsenie");
-	}
-
 </script>
 
 <header>
 	<div class="corner">
-		<button on:click={redirectt} style="margin-top: 1em; margin-left:1em; width:13em" class="drac-btn drac-bg-purple-transparent drac-btn-ghost drac-text-purple drac-m-sm drac-btn-xs">
-		návrh na zlepšenie</button>
+		<a href="/zlepsenie" style="margin-top: 1em; margin-left:1em; width:13em; height:2em;" class="drac-btn drac-bg-purple-transparent drac-btn-ghost drac-text-purple drac-m-sm drac-btn-xs">
+		návrh na zlepšenie</a>
 	</div>
 
 	<!-- <nav>
@@ -41,6 +33,13 @@
 </header>
 
 <style>
+	a { 
+		text-decoration: none;
+	}
+	a:link { text-decoration: none; }
+	a:visited { text-decoration: none; }
+	a:hover { text-decoration: none; }
+	a:active { text-decoration: none; }
 	header {
 		display: flex;
 		justify-content: space-between;

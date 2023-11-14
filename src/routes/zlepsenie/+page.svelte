@@ -1,10 +1,5 @@
 <script>
-	import { page } from '$app/stores';
-	import github from '$lib/images/github.svg';
-
-	async function redirect() {
-		window.location.assign("/");
-	}
+	
 </script>
 
 <svelte:head>
@@ -20,7 +15,17 @@
 	Návrhy na zlepšenie obsahu, prípadne chyby alebo dizajnové zmeny posielajte na <i>podpora@sietovevzdelanie.eu</i>	
 	</span>
  </div>
- <center><button aria-current={$page.url.pathname === '/' ? 'page' : undefined} on:click={redirect} style="margin-top: 1em; margin-left:1em; width:6em" class="drac-btn drac-bg-purple drac-m-sm drac-btn-lg">
-	SPÄŤ</button></center>
+ <center><a href="/" style="margin-top: 1em; margin-left:1em; width:6em" class="drac-btn drac-bg-purple drac-m-sm drac-btn-lg">
+	SPÄŤ</a></center>
 </div>
 
+<style>
+	a { 
+		text-decoration: none;
+		color: black;
+	}
+	a:link { text-decoration: none; }
+	a:visited { text-decoration: none; }
+	a:hover { text-decoration: none; }
+	a:active { text-decoration: none; }
+</style>

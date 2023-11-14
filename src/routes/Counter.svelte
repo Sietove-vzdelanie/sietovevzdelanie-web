@@ -1,9 +1,8 @@
 <script>
-	import { spring } from 'svelte/motion';
 	import { onMount } from 'svelte';
 
 	// main page odpocet casu
-	var countDownDate = new Date("November 29, 2023 15:37:25").getTime();
+	var countDownDate = new Date("December 29, 2023 15:37:25").getTime();
 	
   	// Get today's date and time
   	let now = new Date();
