@@ -13,12 +13,12 @@
 		<!-- <picture>
 			<img src={logo} alt="" />
 		</picture> -->
-		<h1 class="drac-text drac-text-purple-cyan">Sieťové<br>Vzdelanie</h1>	
+		<h1 style="font-weight:450; font-size:4.4rem;" class="drac-text drac-text-purple-cyan">Sieťové<br>Vzdelanie</h1>	
 	</div>
 
 	<div style="height: 2em"></div>
 	
-	<a href="https://obsah.sietovevzdelanie.eu/" class="drac-btn drac-bg-purple-cyan drac-m-sm drac-btn-lg">Ukážka kurzov</a>
+	<a style="font-weight:450;" href="https://obsah.sietovevzdelanie.eu/" class="drac-btn drac-bg-purple-cyan drac-m-sm drac-btn-lg">Ukážka kurzov</a>
 
 	<div style="height: 6em"></div>
 	
@@ -32,7 +32,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex: 0.2;
+		flex: 0;
 	}
 
 	h1 {
