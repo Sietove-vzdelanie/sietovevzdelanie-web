@@ -32,7 +32,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex: 0.5;
+		flex: 0.6;
 	}
 
 	h1 {
