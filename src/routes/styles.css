@@ -1,4 +1,5 @@
 @import '@fontsource/fira-mono';
+@import "../../node_modules/dracula-ui/styles/dracula-ui.css";
 
 :root {
 	--font-body: 'Fira Code', monospace;
