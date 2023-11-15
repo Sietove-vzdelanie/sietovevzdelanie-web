@@ -16,11 +16,11 @@
 		<h1 style="font-weight:450; font-size:4.4rem;" class="drac-text drac-text-purple-cyan">Sieťové<br>Vzdelanie</h1>	
 	</div>
 
-	<div style="height: 2em"></div>
+	<div style="height: 1em"></div>
 	
 	<a style="font-weight:450;" href="https://obsah.sietovevzdelanie.eu/" class="drac-btn drac-bg-purple-cyan drac-m-sm drac-btn-lg">Ukážka kurzov</a>
 
-	<div style="height: 6em"></div>
+	<div style="height: 5em"></div>
 	
 	<p class="drac-heading drac-heading-lg drac-text-white">Nový obsah dostupný za:</p>	
 	<Counter />
@@ -32,7 +32,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex: 0;
+		flex: 0.5;
 	}
 
 	h1 {
