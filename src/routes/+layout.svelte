@@ -15,7 +15,7 @@
 	</main>
 
 	<footer>
-		<p class="drac-text drac-text-white"><center>podpora@sietovevzdelanie.eu</center><br>{year} Sieťové vzdelanie <a href="/podmienky">podmienky služby</a></p>
+		<p class="drac-text drac-text-white"><center>podpora@sietovevzdelanie.eu</center><br>{year} Michal Hicz <a href="/podmienky">podmienky služby</a></p>
 	</footer>
 </div>
 
